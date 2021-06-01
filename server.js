@@ -30,7 +30,6 @@ const usersRouter=require('./routes/users');
 app.use('/exercises',exercisesRouter);
 app.use('/users',usersRouter);
 
-require('dotenv').config();  
 
 app.listen(port,()=> {
     console.log(`server is running on port :${port}`);
